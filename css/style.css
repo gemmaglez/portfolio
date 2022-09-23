@@ -1,0 +1,237 @@
+@font-face {
+    src: font/Helvetica;
+
+    font-family: "Helvetica";
+}
+
+@font-face {
+    src: font/Helvetica-Bold;
+
+    font-family: "Helvetica-Bold";
+}
+
+
+body {
+    background-color: white;
+    max-width: 1440px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Helvetica-Bold";
+
+}
+
+
+
+.logo {
+    width: 40%;
+   
+
+}
+
+.titleheader {
+    width: 70%;
+    height: 600px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    text-align: justify;
+
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    
+
+}
+
+.asterisk {
+
+    font-size: 100px;
+    line-height: 150px;
+    color: #A7B64B;
+    font-family: "Helvetica-Bold";
+    margin: 20% 0% 20% 0%;
+      
+
+}
+
+.title {
+
+    margin: 20px 20px 15px 2px;
+    font-size: 56px;
+    font-family: "Helvetica-Bold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.social {
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Helvetica-Bold";
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+
+    
+
+.projectsmain {
+    
+    background-color: black; 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+
+
+h2 {
+
+    
+    padding-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: "Helvetica-Bold";
+    color: white;
+
+    
+}
+
+
+    
+
+.projectsmain div {
+ 
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    
+}
+
+
+img{
+    width: 100%;
+}
+
+.aboutme {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+
+.aboutme h2 {
+
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: "Helvetica-Bold";
+    color: black;
+    
+
+}
+
+.aboutme p {
+
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: "Helvetica";
+    color: black;
+
+}
+
+.aboutme img {
+
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+footer {
+
+    width: 120%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: black;
+    max-width: 1440px;
+   
+
+    
+
+}
+
+
+.mail {
+
+    color: white;
+    font-size: 16px;
+    font-family: "helvetica";
+   
+    
+}
+
+.fin {
+
+    color:white;
+
+    font-size: 56px;
+    font-family: "Helvetica-Bold";
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    
+   
+    
+    
+}
+
